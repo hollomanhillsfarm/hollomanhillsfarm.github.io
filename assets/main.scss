@@ -13,13 +13,17 @@
 //  }
 
 @include media-query($on-palm) {
-  header img {
+  header img.logo {
     height: 50px;
   }
 }
 
 @include media-query($on-laptop) {
-  header img {
-    height: 110px;
+  header img.logo {
+    height: 70px;
   }
+}
+
+header img.logo {
+  height: 90px;
 }
