@@ -27,6 +27,8 @@ twitter_username: HollomanHills
 instagram_username: HollomanHillsFarm
 facebook_username: hollomanhillsfarm
 
+google_analytics: "UA-114032187-1"
+
 # Build settings
 markdown: kramdown
 theme: minima
