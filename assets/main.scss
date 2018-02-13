@@ -1,5 +1,7 @@
 ---
 ---
+$brand-color:      #f8a541 !default;
+$brand-color-secondary:      #108440 !default;
 
 @import "{{ site.theme }}";
 
@@ -27,3 +29,21 @@
 header img.logo {
   height: 90px;
 }
+
+.footer-col-2 {
+  width: -webkit-calc(20% - (30px / 2));
+  width: calc(25% - (30px / 2));
+  }
+
+.footer-col-3 {
+  width: -webkit-calc(45% - (30px / 2));
+  width: calc(40% - (30px / 2));
+  }
+
+  .site-nav .page-link {
+    color: $brand-color-secondary;
+  }
+
+  .site-header {
+    border-color: $brand-color-secondary;
+  }
