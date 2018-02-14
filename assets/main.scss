@@ -14,22 +14,17 @@ $brand-color-secondary:      #108440 !default;
 //   }
 //  }
 
-@include media-query($on-palm) {
-  header img.logo {
-    height: 50px;
-  }
-}
-
-@include media-query($on-laptop) {
-  header img.logo {
-    height: 70px;
-  }
-}
-
 header img.logo {
   height: 70px;
   margin: 10pt 0;
   padding: 0;
+}
+
+@include media-query($on-palm) {
+  header img.logo {
+    height: auto;
+    width: 280px;
+  }
 }
 
 .footer-col-2 {
